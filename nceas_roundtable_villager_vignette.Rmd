@@ -1,0 +1,35 @@
+---
+title: "NCEAS Roundtable"
+author: "Marcus Thomson"
+date: '2022-05-23'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Common libraries
+
+```{r}
+library(tidyverse)
+library(scales)
+```
+
+# Let's look at villager
+
+villager is a package of functions and R6 class structures that makes building and manipulating artifical agents, in the context of agent-based models (ABMs), pretty easy.
+
+```{r}
+library(villager)
+```
+
+We made villager to help analyze integrated social, economic, ecological, and spatial changes observed in Mesoamerican societies between roughly 1000 BCE - 100 CE. This is known as the Middle and Late Mayan Preclassic period by archaeologists.
+
+There are other ABM frameworks, but we are especially interested in agents that interact in terms of three related but distinct forms of what we might call capital: ik'il, chanul, and chulel. These represent ingredients in a worldview that 
+
+```{r}
+vignette("extending-agents")
+```
+
+
